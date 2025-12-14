@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+}
+
+#babu {
+    width: 500px;
+    height: auto;
+    border-radius: 100%;
+}
+
+#image-container {
+    text-align: center;
+    margin-top: 20px;
+}
