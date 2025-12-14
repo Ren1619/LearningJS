@@ -29,7 +29,7 @@ function imageClicked() {
     container.style.width = '100%';
     container.style.height = '80vh';
     container.style.zIndex = '1';
-    container.style.justifyContent = 'flex-start';
+
     
     // LAST: Get final positions and sizes
     const containerLast = container.getBoundingClientRect();
