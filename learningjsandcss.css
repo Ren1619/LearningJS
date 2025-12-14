@@ -1,5 +1,23 @@
 body{
     background-color: aquamarine;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#container {
+    width: 75%;
+    height: 80%;
+    background-color: pink;
+    display: flex;
+    border-radius: 40px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
 }
 
 #babu {
@@ -9,6 +27,20 @@ body{
 }
 
 #image-container {
-    text-align: center;
     margin-top: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+#message-container {
+    visibility: hidden;
+    margin-top: 150px;
+    text-align: center;
+    opacity: 0;
+}
+
+#message-container p {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-top: 150px;
 }
